@@ -1,0 +1,14 @@
+
+1.Els dos de dalt son Port del ratoli i del teclat. El port del ratoli de color verd es de tipus minidin. El del teclat ( de color morat) és també minidin, encara que de vegades reb el nom de "compatible PS/2".
+
+2.El següent per l'esquerra es el Port paral·lel.Es fa servir principalment per impressores. Normalment es fa servir el terme LPT ( impressora en linia) més un numero per designar un port paral.lel ( per exemple LPT1). Aquest tipus de port pot enviar més d'un bit d'informacio simultaniament gracies a vuit cables en paral.lel.
+
+3.El següent per l'esquerra és e Port serie. Fa servir connectors tipus D-9 Normalment es fa serviramb el terme "COM" ( derivat de comunicacions) seguit de un número per designar un port serie ( per exemple COM1, COM2, etc). Permet velocitats de fins a 115,2 Kbps. No potot enviar mes d'un bit de informacio de manera simultania. Aquesta velocitat es massa baixa, pero es acceptable pels ratolins i per altres dispositius de baixa velocitat com els modems.
+
+4.El que ve a continuacio per l'esquerra es l'USB. (Universal Serial Bus). Aquesta connexió té la característica PnP (Plug and Play) i la facilitat de connexió " en calent", es a dir, que es poden connectar o descpmmectar perifèrics sense necessitat de reiniciar l'ordinador. El bus USB permet la connexió de 127 dispositius com a màxim.
+
+El primer dispositiu USB va ser el USB 1.1, amb una velocitat de transferència de 12 Mbps, després va sorgir una millora considerable que va ser l'actual USB 2.0, amb una velocitat de transferència de 480 Mbps. Hi ha dispositius que per les seves característiques són lents, i no necessiten una transferència de dades tan gran: el teclat, el ratolí, etc.
+
+5.Despres estan els connectors d'Audio. El connector verd és on es connecten els altaveus normals, el vermell per al micròfon i el blau és per l'entrada de línia, que es connecta a la sortida d'audio de la targeta de TV per a poder escoltar-la o a cualsevol font de so que volguem digitalitzar o reproduir a l'ordinador.
+
+
