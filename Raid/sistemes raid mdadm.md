@@ -37,4 +37,4 @@ mdadm --create /dev/md0 --level=6 --raid-devices=4 /dev/vdb /dev/vdc /dev/vdd /d
 tot el demés com abans
 ### Comandes i descripció de les mateixes per tal de crear un sistema RAID10
 mdadm --create /dev/md0 --level=10 --raid-devices=4 /dev/vdb /dev/vdc /dev/vdd /dev/vde
-tot el de més com abans### Comandes i descripció de les mateixes per tal de crear un sistema RAID1
+tot el de més com abans
