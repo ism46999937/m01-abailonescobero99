@@ -190,6 +190,29 @@ realtime =none                   extsz=4096   blocks=0, rtextents=0
 [root@localhost ~]# dd if=/dev/zero of=test2.img bs=1k count=180000
 180000+0 registros leídos
 180000+0 registros escritos
-184320000 bytes (184 MB, 176 MiB) copied, 0,265282 s, 695 MB/s
-```
-
+184320000 bytes (184 MB, 176 MiB) copied, 0,265282 s, 695 MB/s`
+[root@localhost ~]# lsblk
+NAME              MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
+vdd               252:48   0   512M  0 disk  
+└─md0               9:0    0 511,4M  0 raid1 
+vdb               252:16   0   512M  0 disk  
+└─practica1-dades 253:2    0   508M  0 lvm   /mnt
+vdc               252:32   0   512M  0 disk  
+└─md0               9:0    0 511,4M  0 raid1 
+vda               252:0    0    20G  0 disk  
+├─vda2            252:2    0  19,5G  0 part  
+│ ├─fedora-swap   253:1    0     2G  0 lvm   [SWAP]
+│ └─fedora-root   253:0    0  17,5G  0 lvm   /
+└─vda1            252:1    0   500M  0 part  /boot
+[root@localhost ~]# df -h
+S.ficheros                  Tamaño Usados  Disp Uso% Montado en
+devtmpfs                      728M      0  728M   0% /dev
+tmpfs                         750M   512K  749M   1% /dev/shm
+tmpfs                         750M   1,3M  749M   1% /run
+tmpfs                         750M      0  750M   0% /sys/fs/cgroup
+/dev/mapper/fedora-root        18G   5,0G   12G  31% /
+tmpfs                         750M    88K  750M   1% /tmp
+/dev/vda1                     477M   129M  319M  29% /boot
+tmpfs                         150M    28K  150M   1% /run/user/42
+tmpfs                         150M    16K  150M   1% /run/user/1000
+/dev/mapper/practica1-dades   505M    26M  480M   6% /mnt`
