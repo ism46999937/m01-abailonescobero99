@@ -192,6 +192,7 @@ realtime =none                   extsz=4096   blocks=0, rtextents=0
 180000+0 registros escritos
 184320000 bytes (184 MB, 176 MiB) copied, 0,265282 s, 695 MB/s`
 ```
+```
 [root@localhost ~]# lsblk
 NAME              MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
 vdd               252:48   0   512M  0 disk  
@@ -217,4 +218,5 @@ tmpfs                         750M    88K  750M   1% /tmp
 tmpfs                         150M    28K  150M   1% /run/user/42
 tmpfs                         150M    16K  150M   1% /run/user/1000
 /dev/mapper/practica1-dades   505M    26M  480M   6% /mnt
+```
 ```
