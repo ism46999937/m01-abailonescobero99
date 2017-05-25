@@ -52,8 +52,8 @@ S'utilitza el firewalld
 No
 ```
 ### Instal.leu el servidor web httpd o nginx i activeu-ne el servei (dnf installl ...  ; systemctl ....). Indiqueu les comandes i comproveu que des d'una altra màquina podeu accedir via web a la vostra IP (digueu-li a un company). Hauria de sortir la plana per defecte.
-```
-
+````
+dnf install -y nginx
 ```
 ### Activeu el servei firewalld. Indiqueu com ho feu.
 ```
