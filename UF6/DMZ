@@ -1,0 +1,31 @@
+DMZ
+
+En termes de seguretat informàtica, una DMZ o zona desmilitaritzada és una subxarxa d'àrea local (LAN) situada entre la xarxa privada d'una organització i la xarxa externa, normalment Internet.
+
+Amb l'ajuda d'un Tallafocs les connexions cap a la xarxa DMZ són permeses tant des de la xarxa exterior com des de la xarxa privada, però no són permeses en canvi, les connexions des de la DMZ cap a la xarxa privada de l'organització.
+
+Els ordinadors/servidors que hi ha en aquesta zona poden allotjar serveis que seran visibles tant des de la xarxa interna de l'organització com des de la xarxa externa però amb l'avantatge que els ordinadors de la xarxa privada queden aïllats de l'exterior de l'organització, i per tant en cas que algú entrés de forma il·legal des de l'exterior de la xarxa es trobaria en un "carreró sense sortida".
+
+
+És per aquest motiu, que aquest tipus de configuració s'empra habitualment per connectar servidors que allotgin serveis que hagin de ser usats des del "món exterior" com per exemple servidors de pàgines web, servidors de correu electrònic, DNS i altres, ja que en el pitjor dels casos únicament aquests ordinadors quedarien compromesos i la resta de dades crítiques quedarien protegides.
+
+Les connexions des de la xarxa externa cap a la DMZ es controlen amb l'ajuda del protocol NAT que ens permet fer visibles a l'exterior de la xarxa els serveis que posem a la xarxa DMZ tot configurant al tallafocs quin és el servidor s'encarrega de cada servei.
+
+Contingut
+
+    1 Origen del terme
+    2 Com funciona
+    3 Referències
+    4 Enllaços
+
+Origen del terme
+
+Aquest terme es pren del terreny neutral que separa ambdues Corees, i que és una reminiscència de la guerra de Corea a la península de Corea, en treva des de l'any 1953. Sorprenentment, i tot i que es tracta de terreny neutral, és una de les zones més perilloses del planeta i per aquest motiu dóna nom a aquesta configuració de xarxa.
+Com funciona
+
+El tallafocs que està connectat a les tres xarxes, la privada, la DMZ i l'externa, està configurat de manera que només es permet trànsit IP en certs sentits de pas, que són els següents:
+
+    Es permet trànsit des de la zona vermella cap a la zona verda (Internet → DMZ), però no cap a la zona blava.
+    Es permet trànsit des de la zona blava cap a la zona verda (Xarxa interna → DMZ), però no cap a la zona vermella.
+
+El trànsit IP que no compleix aquests criteris es descarta al tallafocs.
